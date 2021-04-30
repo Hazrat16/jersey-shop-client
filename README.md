@@ -7,3 +7,4 @@ Features:
 ● Fully Responsive with sign-in/up feature
 
 Technologies used: React.js, JavaScript(ES6), Bootstrap 4 for front-end; Node.js, Express, Heroku for back-end; Firebase for hoisting and authentication; MongoDB for database.
+Live Link: https://jersey-shop-48239.web.app/
