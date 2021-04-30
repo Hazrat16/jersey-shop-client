@@ -1,6 +1,7 @@
 Client side code of jersey-shop project
 
 Features:
+
 ● Different Link for User and Admin Panel. Admin Panel is fully protected.
 
 ● Adding Service Option, admin upgrading option for an admin.
