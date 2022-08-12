@@ -14,7 +14,7 @@ const AddProduct = () => {
             imageURL: imageURL,
             price: data.price,
         };
-        const url = `http://localhost:5000/addProduct`;
+        const url = `https://limitless-fjord-93477.herokuapp.com/addProduct`;
 
         fetch(url, {
             method: 'POST',

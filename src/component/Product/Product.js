@@ -16,7 +16,7 @@ const Product = ({pd}) => {
         
         console.log(pd._id);
         const newCart = {...loggedInUser, ...cart};
-        fetch(`http://localhost:5000/addCart`, {
+        fetch(`https://limitless-fjord-93477.herokuapp.com/addCart`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

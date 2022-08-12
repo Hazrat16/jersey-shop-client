@@ -6,7 +6,7 @@ const Cart = () => {
     const [cart, setCart] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/cart?email=`+loggedInUser.email)
+        fetch(`https://limitless-fjord-93477.herokuapp.com/cart?email=`+loggedInUser.email)
         .then(res => res.json())
         .then(data => setCart(data))
     },[])

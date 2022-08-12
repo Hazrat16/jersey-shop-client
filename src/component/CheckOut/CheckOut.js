@@ -8,7 +8,7 @@ const CheckOut = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/checkout/${id}`)
+        fetch(`https://limitless-fjord-93477.herokuapp.com/checkout/${id}`)
         .then(res => res.json())
         .then(data => setJerseyDetail(data[0]))
     },[id])
